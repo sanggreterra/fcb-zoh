@@ -1,3 +1,6 @@
 Joji Matsuda
 
 My motivation to join the open house if to know how to do version control and utilize GitHub commands.
+
+
+This year, I learned about database systems, data analytics, agile project management, full stack development, UI/UX design, 3D fabrication.
