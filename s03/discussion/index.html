@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>CSS Practice</title>
+	</head>
+
+	<body>
+		<nav id="top">
+			<a href="#landing" class = "nav-link">Home</a>
+			<a href="#modules" class = "nav-link">Modules</a>
+		</nav>
+		<section id="landing">
+			<h1 class = "Title" id = "hello">Hello World</h1>
+			<h2 class = "Title">Hello World</h2>
+			<h3 class = "Title">Hello World</h3>
+
+			<div>
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjKLcGw2AWubiD_cQpiDXSD61rhsr-u12JEA&s" id="logo">
+			</div>
+		</section>
+
+		<section id="modules">
+			<h2 id = "moduleHeader">Modules Offered</h2>
+			<div class="module-card">
+				<h3>Fullstack development</h3>
+				<p>Learn how to be frontend and backend</p>
+			</div>
+			<div class="module-card">
+				<h3>Agile project management</h3>
+				<p>Learn how to do agile project management</p>
+			</div>
+			<a href="#top">Back to top</a>
+		</section>
+	</body>
+
+	<style>
+		*{
+			font-family: "Arial", monospace;
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		h1{
+			font-family: "Arial", monospace;
+		}
+
+		h2, h3{
+			font-family: "Times New Roman", monospace;
+		}
+
+		body{
+			background-image: url(https://scontent.fmnl8-5.fna.fbcdn.net/v/t39.30808-6/528227799_1176267394527513_2131512824671405082_n.png?_nc_cat=109&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeHYQhbdqz5XeOFDjnsSXlGhKQ4pHuZLLocpDike5ksuh-Qz34puXisuxbCbHqAbvNPVv30cLDOhf2esT3HVBNcU&_nc_ohc=OcTIqscVqU4Q7kNvwGLGeOw&_nc_oc=Adn_vOenCDVvCSeDOr-piswzLE3PDBTGICHisWnVATeGzPmdMegEb4zo3QFr9sfusKM&_nc_zt=23&_nc_ht=scontent.fmnl8-5.fna&_nc_gid=9jeFFjSA2xB9tF_ZZPeaZg&oh=00_AfYfLJ_E_Y2FpDZrpu_kEgsk2zhwbJaHwBCvJ09WFSiMFw&oe=68D9AEE7);
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+			background-attachment: fixed;
+		}
+		section{
+			text-align: center;
+		}
+		nav{
+			background-color: white;
+			text-align: center;
+			padding: 15px;
+		}
+		.Title{
+			color: black;
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+		#hello{
+			color: black;
+			font-size: 2rem;
+		}
+		#logo{
+			height: 100px;
+			border-radius: 1px;
+			margin-top: 2rem;
+			margin-bottom: 2rem;
+		}
+		a{
+			text-decoration: none;
+		}
+		.module-card{
+			border: 2px solid black;
+			height: 350px;
+			width: 800px;
+			padding: 20px;
+			background-color: white;
+			margin-top: 30px;
+			margin-bottom: 30px;
+			text-align: center;
+			border-radius: 10px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		#modules{
+			margin-top: 30px;
+			margin-bottom: 30px;
+		}
+		#moduleHeader{
+			margin-top: 30px;
+			margin-bottom: 30px;
+		}
+	</style>
+</html>
