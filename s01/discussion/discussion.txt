@@ -1,0 +1,8 @@
+Git Demonstration
+
+Hello World!
+
+Topics in course:
+- GIT
+- HTML
+- CSS
